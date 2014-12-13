@@ -49,8 +49,8 @@ var app = {
     var isAndroid = (/(android)/i.test(navigator.userAgent));
     var adPublisherIds = {
       ios : {
-        banner: 'ca-app-pub-8440343014846849/7078073011',
-        interstitial: 'ca-app-pub-8440343014846849/8554806210'
+        banner: 'ca-app-pub-4300087400824669/9771030634',
+        interstitial: 'ca-app-pub-4300087400824669/3724497034'
       },
       android : {
         banner: 'ca-app-pub-8440343014846849/6338199818',
@@ -71,7 +71,7 @@ var app = {
       bannerAtTop: true, // set to true, to put banner at top
       overlap: false, // set to true, to allow banner overlap webview
       offsetStatusBar: true, // set to true to avoid ios7 status bar overlap
-      isTesting: true, // receiving test ads (do not test with real ads as your account will be banned)
+      isTesting: false, // receiving test ads (do not test with real ads as your account will be banned)
       autoShowBanner: true, // auto show banners ad when loaded
       autoShowInterstitial: false // auto show interstitials ad when loaded
     });
